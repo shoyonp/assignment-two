@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+.dancing-script-font{
+  font-family: "Dancing Script", cursive ;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: italic;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+/* text color */
+.text-light{
+    color:#FFFFFF;
+    font-size: 1.125rem;
+}
+
+.text-light-two{
+    color:rgba(255, 255, 255, 0.5) ;
+    /* font-size: 0.9rem; */
+}
+
+/* background */
+.bg-gray{
+    background:linear-gradient(to bottom,#000000,#434343,#000000);
+}
+
+.btn-primary{
+    background-color: #E6533C;
+    color: white;
+    padding:16px 46.5px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 42px;
+}
+
+.btn-secondary{
+    background-color: black;
+    color: white;
+    padding:16px 48px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 42px;
+    margin-left: 14px;
+}
+
+main{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+/* header section styles */
+
+
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+    color:#E6533C ;
+}
+
+.nav-links{
+    border:1px solid rgba(255, 255, 255, 0.1) ;
+    border-radius: 39px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight:400;
+    color:rgba(255, 255, 255, 1);
+}
+
+.nav-item{
+    list-style: none;
+    padding:12px 47px;
+}
+
+.nav-item :hover{
+    background:#E6533C;
+    color: white;
+    border: none;
+    border-radius:46px;
+    padding: 8px 20px;
+}
+
+/* .nav-item:hover{
+    width: fit-content;
+} */
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related styles */
+.banner{
+    /* margin: 0 auto;
+    align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content{
+    max-width: 600px;
+    margin-bottom: 76px;
+}
+
+.banner-title{
+    font-size: 5rem;
+    color: #FFFFFF;
+}
+
+.banner-description{
+    font-size: 1rem;
+    margin-bottom: 28px;
+}
+
+/* .btns{
+    position:relative
+} */
+
+#tutorial-video {
+    padding: 20px 23px;
+    font-size:1rem;
+    color: rgba(239, 237, 232, 0.65);
+    background:rgba(48, 48, 48, 0.54) ;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    /* margin-left: -113px;
+    margin-top:-63px; */
+    position: absolute;
+    right:470px;
+    top: 556px;
+}
+
+#numbers-of-tutorial-video{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+#workout-video{
+    padding: 17px 24px;
+    font-size:1rem;
+    color: rgba(255, 255, 255, 0.65);
+    background:rgba(255, 255, 255, 0.1) ;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    /* margin-left:74px ;
+    margin-top:-357px; */
+    position: absolute;
+    right:100px;
+    top: 260px;
+}
+#numbers-of-workout-video{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+/* main styles */
+
+/* habit section */
+
+.habits{
+    text-align: center;
+}
+
+.habit-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.habit-description{
+    text-align: center;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 58px;
+    font-size: 0.9rem;
+}
+
+.habit-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    text-align: center;
+    align-items: center;
+    max-width: 231px;
+    margin: 0 auto;
+}
+
+.habit-img{
+    /* align-items: center; */
+    border: 1px solid rgba(255, 255, 255, 1) ;
+    border-radius: 50%;
+}
+
+.habit-img-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.habit-img-description{
+    text-align: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-top: 6px;
+}
+
+/* run section */
+
+.bg-of-run{
+    background:#222222 ;
+    border: none;
+    border-radius: 18px;
+    margin-top: 100px;
+}
+
+.run{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 165px;
+    align-items: center;
+}
+
+.run-tiite{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.run-img{
+    max-width:366px ;
+    /* max-height: 312px; */
+    border: none;
+    border-radius: 18px;
+}
+
+.run-content{
+    max-width: 443px;
+    padding-left: 54px;
+}
+
+.run-btn{
+    margin-bottom: 40px;
+}

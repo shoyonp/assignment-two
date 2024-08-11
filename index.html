@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment Two</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="https://kit.fontawesome.com/f6336bf8ce.js" crossorigin="anonymous"></script>
+    <style>
+      body{
+        background: black;
+      }
+    </style>
+  </head>
+  <body class="inter-normal">
+    <header class="bg-gray">
+      <!-- Navbar section -->
+      <nav class="navbar display-flex">
+        <h3 class="brand">Fitness</h3>
+        <ul class="nav-links display-flex">
+          <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="">About</a></li>
+        </ul>
+      </nav>
+      <!-- banner section -->
+       <div class="banner display-flex">
+       <div class="banner-content">
+        <h1 class="banner-title">Get body in <span class="dancing-script-font">shape</span> & stay healthy</h1>
+        <p class="banner-description text-light-two">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+        <button class="btn-primary">Join Club Now!</button>
+        <button class="btn-secondary">Download App</button>
+       </div>
+        <div>
+          <img src="images/Images 2.png" alt="">
+          <div class="btns">
+            <button id="tutorial-video">
+              <span id="numbers-of-tutorial-video"><i class="fa-solid fa-play"></i> 350+</span>
+              <br>
+              <span>Video tutorial</span>
+            </button>
+            <button id="workout-video">
+              <span id="numbers-of-workout-video">500+</span>
+              <br>
+              <span>Free Workout Videos</span>
+            </button>
+          </div>
+        </div>
+       </div>
+    </header>
+    <main>
+      <!-- habits section -->
+      <section>
+         <div class="habits">
+          <h1 class="habit-title">Change Your Habits</h1>
+          <p class="habit-description text-light-two">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+         </div>
+         <div class="display-flex">
+          <div class="habit-content">
+            <img src="images/image 3.png" alt="" class="habit-img">
+            <h3 class="habit-img-title">Movemonet</h3>
+            <p class="habit-img-description text-light-two">We believe fitness should be accessible to everyone</p>
+          </div>
+          <div class="habit-content">
+            <img src="images/image 2.png" alt="" class="habit-img">
+            <h3 class="habit-img-title">Time</h3>
+            <p class="habit-img-description text-light-two">We believe fitness should be accessible to everyone</p>
+          </div>
+          <div class="habit-content">
+            <img src="images/image 4.png" alt="" class="habit-img">
+          <h3 class="habit-img-title">Practise</h3>
+          <p class="habit-img-description text-light-two">We believe fitness should be accessible to everyone</p>
+          </div>
+          <div class="habit-content">
+            <img src="images/image 5.png" alt="" class="habit-img">
+          <h3 class="habit-img-title">Weight Loss</h3>
+          <p class="habit-img-description text-light-two">We believe fitness should be accessible to everyone</p>
+          </div>
+         </div>
+      </section>
+      <!-- run section -->
+       <section class="bg-of-run">
+        <div class="run">
+          <div class="run-content">
+            <h1 class="run-tiite">Run an Extra 
+              Mile Easily</h1>
+              <p class="text-light-two run-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+              <button class="run-btn btn-primary">Join Now</button>
+          </div>
+          <div>
+            <img class="run-img" src="images/run.jpg" alt="">
+          </div>
+        </div>
+       </section>
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>
