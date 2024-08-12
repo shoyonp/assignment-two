@@ -416,3 +416,71 @@ input{
 .form1 button{
     margin-bottom:52px ;
 }
+
+/* meet out team section styles */
+
+
+/* footer styles */
+
+.footer-bg{
+    background:#222222 ;
+    width: 100%;
+}
+
+.footer-parent{
+    max-width: 1060px;
+    gap: 102px;
+    margin: 0 auto;
+    /* justify-items: left; */
+}
+
+.footer-brand{
+    max-width: 443px;
+}
+
+.footer-brand h1{
+    font-size: 4.36rem;
+    font-weight: 800;
+    color: #E6533C;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.footer-column{
+    max-width: 181px;
+}
+
+.footer-column h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer-column ul{
+    padding-inline-start: 0%;
+}
+
+.footer-column ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-column  li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5) ;
+}
+
+hr{
+    max-width: 1060px;
+    color:rgba(255, 255, 255, 0.1) ;
+    margin-top: 79px;
+    /* margin-bottom: 36px; */
+}
+
+footer>p{
+    color: rgba(255, 255, 255, 0.5);
+    /* font-size: 1.3rem; */
+    max-width: 318px;
+    margin: 36px auto;
+    padding-bottom: 36px;
+}
