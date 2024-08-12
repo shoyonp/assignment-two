@@ -71,12 +71,14 @@
 }
 
 /* header section styles */
-
-
 /* navbar styles */
+
 .navbar{
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    max-width: 1060px;
+    gap: 270px;
+    margin: 0 auto;
 }
 
 .brand{
@@ -84,6 +86,10 @@
     font-weight: 800;
     font-style: italic;
     color:#E6533C ;
+}
+
+nav ul{
+    padding-inline-start: 0%;
 }
 
 .nav-links{
@@ -100,7 +106,7 @@
 
 .nav-item{
     list-style: none;
-    padding:12px 47px;
+    padding:12px 30px;
 }
 
 .nav-item :hover{
@@ -111,9 +117,9 @@
     padding: 8px 20px;
 }
 
-/* .nav-item:hover{
+.nav-item:hover{
     width: fit-content;
-} */
+}
 
 .navbar, .banner{
     max-width: 1440px;
@@ -127,6 +133,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1060px;
 }
 
 .banner-content{
@@ -419,6 +426,22 @@ input{
 
 /* meet out team section styles */
 
+.team-content{
+    text-align: center;
+}
+
+.team-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.team-img-container{
+    max-width: 1060px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
 /* footer styles */
 
