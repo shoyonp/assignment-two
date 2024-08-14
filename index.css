@@ -266,13 +266,15 @@ nav ul{
     border: none;
     border-radius: 18px;
     margin-top: 100px;
+    max-width: 1060px;
 }
 
 .run{
     display: flex;
     /* justify-content: space-between; */
-    gap: 165px;
+    gap: 150px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .run-tiite{
@@ -284,7 +286,6 @@ nav ul{
 
 .run-img{
     max-width:366px ;
-    /* max-height: 312px; */
     border: none;
     border-radius: 18px;
 }
@@ -447,28 +448,41 @@ input{
 
 .team-content{
     text-align: center;
+    margin-bottom:58px ;
 }
 
 .team-title{
     font-size: 3rem;
     font-weight: 900;
     color: white;
+    margin-bottom: 14px;
 }
 
 .team-img-container{
     max-width: 1060px;
     display: grid;
+    border-radius:18px ;
     place-items: center;
-    background-color: rgb(28, 27, 27);
+    background: rgb(28, 27, 27);
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
 }
 
 .team-img-container >img{
-    width: 300px;
+    width: 326px;
+    height: 272px;
     background-size: 100% 100%;
     background-position: center;
-    background-origin: border-box;
+    /* background-origin: border-box; */
+    border-radius: 18px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    position: absolute;
+    /* bottom: 10px; */
+    /* left: px; */
+    color: white;
     
 }
 

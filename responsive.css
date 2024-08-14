@@ -26,6 +26,10 @@
    width: 80%;
   }
 
+  .banner-content>button{
+   max-width: 352px;
+  }
+
   #tutorial-video{
    position: absolute;
    right: 300px;
@@ -67,12 +71,12 @@
 
   .run-content{
    align-items: center;
-   max-width: 366px;
-   padding-left:100px ;
+   max-width: 287px;
+   /* padding-left:50px ; */
   }
 
   .run-img{
-   width: 366px;
+   width: 100%;
   }
 
   /* BMI section responsive */
@@ -95,14 +99,14 @@
   .table{
    max-width: 353px;
    max-height: 216px;
-   padding-left: 50px;
+   padding-left: 45px;
    padding-bottom:42px ;
   }
 
   .form1{
    max-width: 354px;
    max-height: 395px;
-   padding-left: 50px;
+   padding-left: 45px;
    padding-top: 42px;
    padding-bottom: 43px;
   }
@@ -118,13 +122,17 @@
 
   /* team section responsive */
 
+  .team-img-container{
+   display: block;
+   padding-left: 45px;
+  }
 
 
   /* footer section responsive */
 
   .footer-parent{
    display: block;
-   padding-left: 50px;
+   padding-left: 45px;
   }
 
   .footer-brand{
