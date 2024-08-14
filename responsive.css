@@ -1,4 +1,7 @@
 @media only screen and (max-width: 576px) {
+
+   /* hero section responsive */
+
   .banner{
    padding-left: 20px;
    padding-right: 20px;
@@ -39,6 +42,8 @@
    display: block;
   }
 
+/* habit section responsive */
+
   .habit{
    display: block;
    margin-top: 20px;
@@ -47,6 +52,8 @@
   .habit-content{
    margin-top: 20px;
   }
+
+  /* run section responsive */
 
   .run{
    display: block;
@@ -60,7 +67,7 @@
 
   .run-content{
    align-items: center;
-   width: 366px;
+   max-width: 366px;
    padding-left:100px ;
   }
 
@@ -68,39 +75,61 @@
    width: 366px;
   }
 
+  /* BMI section responsive */
+
+  .bmi-bg{
+   margin-top:32px ;
+  }
+
   .BMI{
    text-align: start;
    max-width: 400px;
-   padding-left: 100px;
+   padding-left: 50px;
   }
 
   .bmi_child{
    display: block;
-   /* width: 100%; */
+   width: 100%;
+  }
+
+  .table{
+   max-width: 353px;
+   max-height: 216px;
+   padding-left: 50px;
+   padding-bottom:42px ;
   }
 
   .form1{
    max-width: 354px;
    max-height: 395px;
-   /* border: 1px solid red; */
-   padding:100px;
+   padding-left: 50px;
+   padding-top: 42px;
+   padding-bottom: 43px;
   }
 
-  .fromManage{
-   max-width: 354px;
+  .sex{
+   width: 95%;
   }
 
   .activity{
-   width: 354px;
+   max-width: 346px;
   }
-
-  .table{
-   max-width: 310px;
-   max-height: 216px;
-   border: 3px solid bl;
-   padding-left: 100px;
-  }
-
 
   
+
+  /* team section responsive */
+
+
+
+  /* footer section responsive */
+
+  .footer-parent{
+   display: block;
+   padding-left: 50px;
+  }
+
+  .footer-brand{
+   max-width: 317px;
+  }
+
   }
