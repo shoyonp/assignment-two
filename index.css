@@ -138,10 +138,6 @@ nav ul{
     max-width: 1060px;
 }
 
-.habit{
-    display: flex;
-}
-
 .settingButton{
     display: none;
 }
@@ -151,7 +147,7 @@ nav ul{
 }
 
 .banner-content{
-    max-width: auto;
+    max-width: 520px;
     margin-bottom: 76px;
 }
 
@@ -165,8 +161,6 @@ nav ul{
     font-size: 1rem;
     margin-bottom: 28px;
 }
-
-
 
 #tutorial-video {
     padding: 20px 23px;
@@ -213,6 +207,10 @@ nav ul{
 
 .habits{
     text-align: center;
+}
+
+.habit{
+    display: flex;
 }
 
 .habit-title{

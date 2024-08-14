@@ -72,7 +72,7 @@
   .run-content{
    align-items: center;
    max-width: 287px;
-   /* padding-left:50px ; */
+   padding-left:100px ;
   }
 
   .run-img{
@@ -124,7 +124,12 @@
 
   .team-img-container{
    display: block;
-   padding-left: 45px;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+
+  .team-img-container>img{
+   width: 100%;
   }
 
 
@@ -137,10 +142,12 @@
 
   .footer-brand{
    max-width: 317px;
+   margin-top:44px ;
   }
 
   hr{
    max-width: 400px;
+   margin-top: 72px;
   }
 
   }
