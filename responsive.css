@@ -1,0 +1,106 @@
+@media only screen and (max-width: 576px) {
+  .banner{
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+   .nav-links{
+    display: none;
+   }
+
+   .navbar{
+      display: flex;
+      justify-content: space-around;
+   }
+   .banner{
+      display: block;
+   }
+  .banner-title{
+   font-size: 40px;
+   width: 310px;
+  }
+
+  .banner-description{
+   width: 80%;
+  }
+
+  #tutorial-video{
+   position: absolute;
+   right: 300px;
+   top: 410px;
+  }
+
+  #workout-video{
+   position: absolute;
+   right: 0px;
+   top: 110px;
+  }
+
+  .settingButton{
+   display: block;
+  }
+
+  .habit{
+   display: block;
+   margin-top: 20px;
+  }
+
+  .habit-content{
+   margin-top: 20px;
+  }
+
+  .run{
+   display: block;
+   padding-top: 1px;
+   padding-bottom: 40px;
+  }
+
+  .run-tiite{
+   font-size: 40px;
+  }
+
+  .run-content{
+   align-items: center;
+   width: 366px;
+   padding-left:100px ;
+  }
+
+  .run-img{
+   width: 366px;
+  }
+
+  .BMI{
+   text-align: start;
+   max-width: 400px;
+   padding-left: 100px;
+  }
+
+  .bmi_child{
+   display: block;
+   /* width: 100%; */
+  }
+
+  .form1{
+   max-width: 354px;
+   max-height: 395px;
+   /* border: 1px solid red; */
+   padding:100px;
+  }
+
+  .fromManage{
+   max-width: 354px;
+  }
+
+  .activity{
+   width: 354px;
+  }
+
+  .table{
+   max-width: 310px;
+   max-height: 216px;
+   border: 3px solid bl;
+   padding-left: 100px;
+  }
+
+
+  
+  }

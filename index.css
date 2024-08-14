@@ -52,6 +52,7 @@
     font-weight: 600;
     border: none;
     border-radius: 42px;
+    width: auto;
 }
 
 .btn-secondary{
@@ -63,6 +64,7 @@
     border: 1px solid white;
     border-radius: 42px;
     margin-left: 14px;
+    width: auto;
 }
 
 .width{
@@ -136,14 +138,27 @@ nav ul{
     max-width: 1060px;
 }
 
+.habit{
+    display: flex;
+}
+
+.settingButton{
+    display: none;
+}
+
+.man{
+    position: relative;
+}
+
 .banner-content{
-    max-width: 600px;
+    max-width: auto;
     margin-bottom: 76px;
 }
 
 .banner-title{
     font-size: 5rem;
     color: #FFFFFF;
+    width: 550px;
 }
 
 .banner-description{
@@ -151,9 +166,7 @@ nav ul{
     margin-bottom: 28px;
 }
 
-/* .btns{
-    position:relative
-} */
+
 
 #tutorial-video {
     padding: 20px 23px;
@@ -165,8 +178,8 @@ nav ul{
     /* margin-left: -113px;
     margin-top:-63px; */
     position: absolute;
-    right:470px;
-    top: 556px;
+    right:170px;
+    top: 390px;
 }
 
 #numbers-of-tutorial-video{
@@ -185,8 +198,8 @@ nav ul{
     /* margin-left:74px ;
     margin-top:-357px; */
     position: absolute;
-    right:100px;
-    top: 260px;
+    right: -60px;
+    top: 110px;
 }
 #numbers-of-workout-video{
     font-size: 2.5rem;
@@ -274,6 +287,11 @@ nav ul{
     /* max-height: 312px; */
     border: none;
     border-radius: 18px;
+}
+
+.runImage{
+    display: flex;
+    justify-content: center;
 }
 
 .run-content{
@@ -391,6 +409,7 @@ input{
     margin-top: 12px;
     margin-bottom: 34px;
     grid-column: span 2;
+    width: 546px;
 }
 
 .activity>option{
@@ -439,8 +458,18 @@ input{
 .team-img-container{
     max-width: 1060px;
     display: grid;
+    place-items: center;
+    background-color: rgb(28, 27, 27);
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
+}
+
+.team-img-container >img{
+    width: 300px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-origin: border-box;
+    
 }
 
 /* footer styles */
@@ -448,6 +477,7 @@ input{
 .footer-bg{
     background:#222222 ;
     width: 100%;
+    margin-top: 100px;
 }
 
 .footer-parent{
@@ -507,3 +537,6 @@ footer>p{
     margin: 36px auto;
     padding-bottom: 36px;
 }
+
+
+
